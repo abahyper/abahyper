@@ -1,0 +1,12 @@
+init 0
+aps "x" "y"
+--BODY-- 
+State: 0 [f f]
+0 1 2 3
+State: 1 [f t]
+0 1 2 3
+State: 2 [t f]
+0 1 2 3
+State: 3 [t t]
+0 1 2 3
+

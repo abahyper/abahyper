@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Util.fs" />
+    <Compile Include="SCC.fs" />
+    <Compile Include="TransitionSystem.fs" />
+    <Compile Include="BitLanguage.fs" />
+    <Compile Include="BuchiAutomaton.fs" />
+    <Compile Include="ParityAutomaton.fs" />
+    <Compile Include="HoaParser.fs" />
+    <Compile Include="LTL.fs" />
+    <Compile Include="Converter.fs" />
+    <Compile Include="ProductConstruction.fs" />
+    <Compile Include="AutomatonBasedVerification.fs" />
+    <Compile Include="StrategyBasedVerification.fs" />
+    <Compile Include="PlotGenerator.fs" />
+    <Compile Include="CommandLineParser.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FParsec" Version="1.1.1" />
+    <PackageReference Include="XPlot.Plotly" Version="4.0.6" />
+  </ItemGroup>
+</Project>
